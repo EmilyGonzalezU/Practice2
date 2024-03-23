@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black;
+    display: flex;
+}
+.col1{
+    width: 20%;
+    background: black;
+    color: white;
+    text-align: center;
+    align-items: start;
+
+}
+
+.col2{
+    width: 78%; /* Para compensar el ancho de .col1 */
+    height: 25%;
+    background-color: white;
+}
+
+.art1,  .art2, .art3, .art4{
+    padding-right: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.art1{
+    height: 25% ;
+    background-color:aquamarine;
+}
+
+.art2{
+   
+    background-color:yellow;
+}
+
+.art3{
+   
+    background-color:orange;
+}
+
+.art4{
+   
+    background-color:red;
+}
+ul{
+    padding-top: 30px;
+}
+
+li{
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
